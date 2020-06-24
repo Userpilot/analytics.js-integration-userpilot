@@ -1,1 +1,1 @@
-# segment-analytics-userpilot
+Userpilot Segment analytics.js integration
