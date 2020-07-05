@@ -1,7 +1,7 @@
 {
   "name": "@userpilot/analytics.js-integration-userpilot",
   "description": "The Userpilot analytics.js integration.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "analytics.js",
     "analytics.js-integration",
@@ -28,13 +28,13 @@
     "isobject": "^2.1.0"
   },
   "devDependencies": {
-    "@segment/analytics.js-core": "^3.0.0",
+    "@segment/analytics.js-core": "^3.10.1",
     "@segment/analytics.js-integration-tester": "^3.1.0",
     "@segment/clear-env": "^2.0.0",
     "@segment/eslint-config": "^3.1.1",
     "browserify": "^13.0.0",
     "browserify-istanbul": "^2.0.0",
-    "eslint": "^2.9.0",
+    "eslint": "^2.13.1",
     "eslint-plugin-mocha": "^2.2.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "istanbul": "^0.4.3",

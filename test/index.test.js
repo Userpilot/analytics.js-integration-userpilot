@@ -93,6 +93,17 @@ describe('Userpilot', function() {
       });
     });
 
+    describe('#group', function() {
+      beforeEach(function() {
+        analytics.stub(window.userpilot, 'group');
+      });
+
+      it('should send company id and attributes', function() {
+        analytics.group('company id', { trait: true, createdAt: 9 });
+        analytics.called(window.userpilot.group, 'company id', { id: 'company id', trait: true, createdAt: 9 });
+      });
+    });
+
     describe('#identify', function() {
       beforeEach(function() {
         analytics.stub(window.userpilot, 'identify');
